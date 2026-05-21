@@ -1,54 +1,184 @@
 <div align="center">
-  <h1>🔪 SlicFX (Beta 1)</h1>
+
+  <img src="logo.png" width="400" alt="SlicFX Logo">
+
+  <h1>Beta 1 Coming Soon!</h1>
+
   <p><b>The zero-friction composition and visual effects suite for OBS Studio.</b></p>
-  <p><i>Developed by RyeMoes</i></p>
-  <br>
-  <br>
+
 </div>
 
 ---
 
-## 🚀 The Ultimate OBS Composition Suite
+# The Ultimate OBS Composition Suite
 
-[cite_start]I got sick of complex nested scenes, mask files, and installing 10 different plugins just to make my stream look good[cite: 1940, 1941]. [cite_start]So, I built a unified, zero-friction composition suite[cite: 1941]. 
+I got tired of complex nested scenes, mask files, and installing 10 different plugins just to make my stream look good.  I was spending more time tinkering with settings offline than I was streaming. So I built a unified, zero-friction composition suite.
 
-[cite_start]This is a free, highly optimized OBS plugin designed to bring Apple-style, one-click premium aesthetics to your stream[cite: 1941]. [cite_start]No more fighting with the OBS engine, no more rubber-banding group boxes, and no more Photoshop masking files[cite: 1942]. [cite_start]Drop a SlicFX source into your scene, and it just works[cite: 1943].
+SlicFX is a free plugin designed to bring easy-to-use premium aesthetics to your stream. No more fighting with the OBS engine, no more nested scenes to have a simple frosted glass look, no more making 4 chained filters to animate something around the screen.
 
----
-
-## 🟢 What's Included in Beta 1
-
-### Custom Sources
-* [cite_start]**Slic Frosted Glass:** A true, zero-setup frosted glass adjustment layer[cite: 1944]. [cite_start]It automatically reads the Z-order and blurs exactly what is physically behind it[cite: 1945]. [cite_start]Powered by a custom 8-pass Kawase blur pipeline with a 480p downsample, it gives you massive, buttery-smooth blur without melting your GPU[cite: 1946]. [cite_start]Includes an exponential crossfade at the lowest levels for pixel-perfect sharpness, plus built-in noise generation and color tinting[cite: 1947].
-* [cite_start]**Slic Source Instance:** The zero-performance clone[cite: 1951]. [cite_start]Creates a lightweight, frame-by-frame duplicate of any master source that passes directly through the GPU cache with virtually zero overhead[cite: 1952].
-* [cite_start]**Slic Adjustment Layer:** A pure, full-resolution pass-through layer[cite: 1953]. [cite_start]Drop this above your gameplay and webcam, right-click it, and add standard OBS Color Correction or LUTs to grade your entire scene at once[cite: 1954].
-
-### Custom Filters
-* [cite_start]**Slic Background Removal:** Cleanly cut out your webcam without a green screen[cite: 1948]. [cite_start]Powered by a highly optimized, real-time AI inference engine (Robust Video Matting)[cite: 1949]. [cite_start]It is hardware-agnostic, meaning you don't need an RTX card to get a perfect cutout[cite: 1950].
-* [cite_start]**Slic Rounded Corners:** The #1 most requested UI fix[cite: 1955]. [cite_start]Just drop this filter on your webcam or game capture and drag a slider for perfect, procedural rounded corners[cite: 1956].
-* [cite_start]**Slic Blur:** A dedicated, highly optimized Gaussian blur filter for individual items[cite: 1957]. [cite_start]Perfect for quickly hiding Discord chats, IP addresses, or sensitive UI elements[cite: 1958].
+SlicFX has all the effects you need bundled in one plugin. Drop a source or filter into your stream, and it just works.
 
 ---
 
-## ⚡ Under the Hood
+<h2>SlicFX Sources</h2>
+<p><i>(Add these via the main OBS <code>+</code> menu)</i></p>
 
-[cite_start]SlicFX isn't just a collection of visual tricks; it is a custom rendering pipeline built directly into the OBS C++ API[cite: 1959, 1960].
+<table>
+<tr>
+<td width="300" valign="middle">
 
-* [cite_start]**Deep Recursive Traversal:** Slic Frosted Glass dynamically maps your scene graph, meaning it perfectly respects folders, crops, and nested transforms[cite: 1961].
-* [cite_start]**Screen-Space UVs:** The glass acts as a true 1:1 "window"[cite: 1962]. [cite_start]You can drag it, crop it, and resize it anywhere on your canvas, and the background will dynamically shift through it flawlessly[cite: 1963].
+<strong>🌫️ Slic Frosted Glass</strong>
 
----
+</td>
+<td>
 
-## 🛠️ Installation
+The easiest way to get that blurred frosted glass background in OBS. It automatically applies a blur and texture to whatever is physically behind it. No more nested scene nightmares required. (Note: Slic Frosted Glass uses a Dual-Filtering / Kawase Blur method and can be reverse engineered. Not recommended for hiding sensitive data)
 
-<details>
-<summary><b>Click to expand Installation Steps</b></summary>
+</td>
+</tr>
+
+<tr>
+<td width="300" valign="middle">
+
+<strong>🎛️ Slic Adjustment Layer</strong>
+
+</td>
+<td>
+
+Drop this invisible, pass-through layer above your other sources, right-click it, and add any filter to it. This will apply the filter to anything that is behind this adjustment layer in real time, like in modern video editing software.
+
+</td>
+</tr>
+
+<tr>
+<td width="300" valign="middle">
+
+<strong>👯 Slic Source Instance</strong>
+
+</td>
+<td>
+
+A lightweight duplicate of any source. You can crop, filter, and transform this new instance independently without changing your original source, all while passing data directly through the GPU cache with virtually zero overhead.
+
+</td>
+</tr>
+</table>
+
 <br>
 
-1. [cite_start]Download the latest `SlicFX-Beta1-Windows.zip` from the Releases tab[cite: 1964].
-2. [cite_start]Extract the contents directly into your `C:\Program Files\obs-studio` directory[cite: 1965].
-3. Launch OBS.
-4. [cite_start]You will find your new tools under the **Add Source -> SlicFX** menu, and the filters in your standard right-click **Filters** menu (look for the "Slic" prefix!)[cite: 1966].
+<h2>SlicFX Filters</h2>
+<p><i>(Add these via the right-click "Filters" menu)</i></p>
+
+<table>
+<tr>
+<td width="300" valign="middle">
+
+<strong>🔲 Slic Rounded Corners</strong>
+
+</td>
+<td>
+
+The absolute easiest way to get rounded coners on your webcam (or any other source) in OBS. Just drop this filter onto your source and drag the radius slider for perfect, procedural curved edges. Zero Photoshop mask files required.
+
+</td>
+</tr>
+
+<tr>
+<td width="300" valign="middle">
+
+<strong>👤 Slic Background Removal</strong>
+
+</td>
+<td>
+
+While NVIDIA Broadcast is still king, this filter can cleanly cut out your webcam without a green screen. It uses a highly optimized AI engine (Robust Video Matting) that is entirely hardware-agnostic, meaning you don't need an RTX card to get a flawless, real-time transparent cutout. (Stick with Broadcast if you have NVIDIA, haha)
+
+</td>
+</tr>
+
+<tr>
+<td width="300" valign="middle">
+
+<strong>🟦 Slic Border</strong>
+
+</td>
+<td>
+
+Automatically draws a drop shadow, solid line, or glowing edge directly around the edges of any source. If you pair this with a mask or background removal, the border will dynamically hug your body as you move around.
+
+</td>
+</tr>
+
+<tr>
+<td width="300" valign="middle">
+
+<strong>🎬 Slic Animate</strong>
+
+</td>
+<td>
+
+Applied directly to the source you want to animate/move (not the scene the source is in), add up to 10 steps in a single filter. This virtually eliminates the confusing, complex, and tedius filter chains.
+
+</td>
+</tr>
+
+<tr>
+<td width="300" valign="middle">
+
+<strong>🧊 Slic 3D Transform</strong>
+
+</td>
+<td>
+
+Push your flat 2D sources into 3D space. Easily adjust the pitch, yaw, and roll sliders to tilt your gameplay captures or webcams at cinematic, angled perspectives.
+
+</td>
+</tr>
+
+<tr>
+<td width="300" valign="middle">
+
+<strong>💧 Slic Blur</strong>
+
+</td>
+<td>
+
+A dedicated simple blur filter. (Note: Slic Blur uses a Dual-Filtering / Kawase Blur method and can be reverse engineered. Not recommended for hiding sensitive data)
+
+</td>
+</tr>
+
+<tr>
+<td width="300" valign="middle">
+
+<strong>✂️ Slic Masks</strong>
+
+</td>
+<td>
+
+This filter procedurally clips the alpha channel of your sources into perfect circles, diamonds, stars, etc using math instead of static image files.  However, if you like the tedius task of making your own mask files in photoshop, this can use those too!
+
+</td>
+</tr>
+</table>
+
+---
+
+## Installation
+
+<details>
+
+<summary><b>Click to expand Installation Steps</b></summary>
+
+<br>
+
+1. Download the latest `SlicFX-Beta1-Windows.zip` from the Releases tab.
+
+2. Extract the contents directly into your OBS directory. (Default location is `C:\Program Files\obs-studio`)
+
+3. Launch OBS Studio.
+
+4. You will find your new tools under the **Add Source** menu and the filters in your standard right-click **Filters** menu (look for the "Slic" prefix).
 
 </details>
 
@@ -56,20 +186,42 @@
 
 ## 🔮 The Roadmap & SlicBot
 
-[cite_start]SlicFX Beta 1 is just the foundation[cite: 1967]. [cite_start]I am actively developing more premium visual tools (Slic Drop Shadow, Slic Outer Stroke, Slic Animated Gradients)[cite: 1968]. 
+SlicFX Beta 1 is just the foundation. I am actively developing more premium visual tools, including:
+### Planned Additions
+* Slic Effect - A library of real-time filters (Heatwave, Glitch, VHS, Water, etc.) to give your stream a unique cinematic edge.
 
-But the real magic is coming soon. [cite_start]SlicFX is designed from the ground up to be the visual anchor for **SlicBot**—an upcoming, web-based broadcast dashboard[cite: 1969]. [cite_start]SlicBot will allow you to completely automate your SlicFX sources, trigger smooth cinematic slide-in animations, and manage your entire OBS layout remotely without ever opening the OBS window[cite: 1970]. Stay tuned.
+
+### Possible Additions
+* Slic Displacement - Adding dynamic pixel-warping for custom glitch and refractive looks.
+* Slic Custom Shader - A sandbox loader for power users to compile custom .hlsl code.
+  
+
+### SlicBot
+SlicFX is designed from the ground up to be easy to use, but it will be even easier with **SlicBot** — an upcoming, web-based broadcast dashboard. While the SlicFX Plugin is and always will be free, SlicBot is designed to turn the free SlicFX Plugin into a full production studio.
+
+###
+* **Smart Auto-Layouts** - Playing a new game?  Choose trhe game name in your dash board and Slic bot will automatically move and resize your camera for optimum placement in a location that doesn't cover any of the game's UI elements.
+
+* **Automated Animations** - Want your camera to do a barrel roll? Forget manual filter chains. Just save your camera source in the dashboard and click "Barrel Roll." SlicBot builds the filters, tweaks the settings, and executes the animation in real-time.
+
+* **The Cost** - SlixFX Plugin is and always will be free, Slic Bot will also be free with a Twitch sub or $3.99/mo. SlicBot eliminates the "tinkering" phase, allowing you to focus on your stream while the bot manages your production values. SlicBot will make filters, change the settings, and execute them in realtime without the need for you to spend time tinkering with the settings of the always free SlicFX Plugin.
+
+Stay tuned.
 
 ---
 
 ## 🐛 Beta Feedback & Support
 
-This is Beta 1! [cite_start]Every PC hardware setup is different[cite: 1971]. [cite_start]If you encounter weird visual glitches, crashes, or feature requests, please drop them in the Issues tab[cite: 1972]. [cite_start]I am actively refining the C++ engine and want to make this the most stable suite in the streaming space[cite: 1973].
+This is Beta 1, and every PC hardware setup is different.
 
+If you encounter visual glitches, crashes, compatibility issues, or have feature requests, please open an issue in the repository. I am actively refining the C++ engine and want to make SlicFX the most stable and polished visual suite that I can.
 ---
 
 ## 📜 Credits & Licensing
+<p><i>Developed by RyeMoes</i></p>
 
-[cite_start]SlicFX is an open-source project licensed under the **GPL-3.0 License**[cite: 2488, 2489].
+SlicFX is open-source software licensed under the **GPL-3.0 License**.
 
-* [cite_start]**Robust Video Matting (RVM):** Slic Background Removal is powered by the Robust Video Matting (RVM) model[cite: 2494]. [cite_start][PeterL1n/RobustVideoMatting](https://github.com/PeterL1n/RobustVideoMatting) (Licensed under GPL-3.0)[cite: 2495].
+### 
+
+* **Robust Video Matting (RVM):** Slic Background Removal is powered by the Robust Video Matting (RVM) model. [PeterL1n/RobustVideoMatting](https://github.com/PeterL1n/RobustVideoMatting) (Licensed under GPL-3.0).
