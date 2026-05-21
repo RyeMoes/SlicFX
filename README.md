@@ -4,7 +4,7 @@
 
   <h1>Beta 1 Coming Soon!</h1>
 
-  <p><b>The zero-friction composition and visual effects suite for OBS Studio.</b></p>
+  <p><b>A simplified all in one composition and visual effects suite for OBS Studio.</b></p>
 
 </div>
 
