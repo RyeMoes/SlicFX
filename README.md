@@ -10,7 +10,7 @@
 
 ---
 
-# The Ultimate OBS Composition Suite
+# The Ultimate OBS All In OneComposition Suite
 
 I got tired of complex nested scenes, mask files, and installing 10 different plugins just to make my stream look good.  I was spending more time tinkering with settings offline than I was streaming. So I built a unified, zero-friction composition suite.
 
