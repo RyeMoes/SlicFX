@@ -2,15 +2,14 @@
 
   <img src="logo.png" width="400" alt="SlicFX Logo">
 
-  <h1>Beta 1 Coming Soon!</h1>
-<p><b>ETA: June 1st, 2026</b></p>
+  <h1>Beta 1 in development now!</h1>
   <p><b>A simplified all in one composition and visual effects suite for OBS Studio.</b></p>
 
 </div>
 
 ---
 
-# An Easy to Use OBS All In One Composition Suite
+# Why SlicFX?
 
 I got tired of complex nested scenes, mask files, and installing 10 different plugins just to make my stream look good.  I was spending more time tinkering with settings offline than I was streaming. So I built a unified, zero-friction composition suite.
 
