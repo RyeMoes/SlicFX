@@ -3,7 +3,7 @@
   <img src="logo.png" width="400" alt="SlicFX Logo">
 
   <h1>Beta 1 Coming Soon!</h1>
-
+<p><b>ETA: June 1st, 2026</b></p>
   <p><b>A simplified all in one composition and visual effects suite for OBS Studio.</b></p>
 
 </div>
