@@ -204,7 +204,7 @@ SlicFX is designed from the ground up to be easy to use, but it will be even eas
 
 * **Automated Animations** - Want your camera to do a barrel roll? Forget manual filter chains. Just save your camera source in the dashboard and click "Barrel Roll." SlicBot builds the filters, tweaks the settings, and executes the animation in real-time.
 
-* **The Cost** - SlixFX Plugin is and always will be free, Slic Bot will also be free with a Twitch sub or $3.99/mo. SlicBot eliminates the "tinkering" phase, allowing you to focus on your stream while the bot manages your production values. SlicBot will make filters, change the settings, and execute them in realtime without the need for you to spend time tinkering with the settings of the always free SlicFX Plugin.
+* **The Cost** - SlixFX Plugin is and always will be free, Slic Bot will also be free with a Twitch sub to my channel. It also will have a $3.99/mo option. SlicBot eliminates the "tinkering" phase, allowing you to focus on your stream while the bot manages your production values. SlicBot will make filters, change the settings, and execute them in realtime without the need for you to spend time tinkering with the settings of the always free SlicFX Plugin.
 
 Stay tuned.
 
