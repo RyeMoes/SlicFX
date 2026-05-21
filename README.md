@@ -184,7 +184,7 @@ This filter procedurally clips the alpha channel of your sources into perfect ci
 
 ---
 
-## 🔮 The Roadmap & SlicBot
+## The Roadmap & SlicBot
 
 SlicFX Beta 1 is just the foundation. I am actively developing more premium visual tools, including:
 ### Planned Additions
@@ -210,15 +210,15 @@ Stay tuned.
 
 ---
 
-## 🐛 Beta Feedback & Support
-
+## Beta Feedback & Support
 This is Beta 1, and every PC hardware setup is different.
 
 If you encounter visual glitches, crashes, compatibility issues, or have feature requests, please open an issue in the repository. I am actively refining the C++ engine and want to make SlicFX the most stable and polished visual suite that I can.
+
 ---
 
-## 📜 Credits & Licensing
-<p><i>Developed by RyeMoes</i></p>
+## Credits & Licensing
+_Developed by RyeMoes_
 
 SlicFX is open-source software licensed under the **GPL-3.0 License**.
 
