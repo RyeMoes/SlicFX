@@ -1,6 +1,6 @@
 <div align="center">
 
-  <img src="https://raw.githubusercontent.com/RyeMoes/SlicFX/refs/heads/main/logo.png" width="400" alt="SlicFX Logo">
+  <img src="https://raw.githubusercontent.com/RyeMoes/SlicFX/refs/heads/main/images/logo.png" width="400">
   <h1><a href = "https://slicfx.com">SlicFX.com</a></h1>
   <p><b>A simplified all in one composition and visual effects suite for OBS Studio.</b></p>
 
@@ -40,7 +40,7 @@ SlicFX has all the effects you need bundled in one plugin. Drop a source or filt
 <h3>Slic Frosted Glass</h3>
 </td>
 <td>
-<img src="https://raw.githubusercontent.com/RyeMoes/SlicFX/refs/heads/main/images/frosted-glass.png" width="300" alt="Slic Frosted Glass">
+<img src="https://raw.githubusercontent.com/RyeMoes/SlicFX/refs/heads/main/images/frosted-glass.png" width="300">
 </td>
 <td>
 <h4>Source & Filter</h4>
@@ -56,7 +56,7 @@ The easiest way to get that blurred frosted glass background in OBS. It automati
 <h3>Slic Adjustment Layer</h3>
 </td>
 <td>
-<img src="https://raw.githubusercontent.com/RyeMoes/SlicFX/refs/heads/main/images/adjustment-layer.png" width="300" alt="Slic Frosted Glass">
+<img src="https://raw.githubusercontent.com/RyeMoes/SlicFX/refs/heads/main/images/adjustment-layer.png" width="300">
 </td>
 <td>
 <h4>Source</h4>
@@ -72,7 +72,7 @@ Drop this invisible, pass-through layer above your other sources, right-click it
 <h3>Slic Source Copy</h3>
 </td>
 <td>
-<img src="https://raw.githubusercontent.com/RyeMoes/SlicFX/refs/heads/main/images/source-copy.png" width="300" alt="Slic Frosted Glass">
+<img src="https://raw.githubusercontent.com/RyeMoes/SlicFX/refs/heads/main/images/source-copy.png" width="300">
 </td>
 <td>
 <h4>Source</h4>
@@ -88,7 +88,7 @@ A lightweight duplicate of any source. You can crop, filter, and transform this 
 <h3>Slic 3D Warp</h3>
 </td>
 <td>
-<img src="https://raw.githubusercontent.com/RyeMoes/SlicFX/refs/heads/main/images/3d-warp.png" width="300" alt="Slic Frosted Glass">
+<img src="https://raw.githubusercontent.com/RyeMoes/SlicFX/refs/heads/main/images/3d-warp.png" width="300">
 </td>
 <td>
 <h4>Filter</h4>
@@ -104,7 +104,7 @@ Push your flat 2D sources into 3D space. Easily adjust the pitch, yaw, and roll 
 <h3>Slic Animation</h3>
 </td>
 <td>
-<img src="https://raw.githubusercontent.com/RyeMoes/SlicFX/refs/heads/main/images/logo.png" width="300" alt="Slic Frosted Glass">
+<img src="https://raw.githubusercontent.com/RyeMoes/SlicFX/refs/heads/main/images/logo.png" width="300">
 </td>
 <td>
 <h4>Filter</h4>
@@ -120,7 +120,7 @@ Applied directly to the source you want to animate/move (not the scene the sourc
 <h3>Slic Background Removal</h3>
 </td>
 <td>
-<img src="https://raw.githubusercontent.com/RyeMoes/SlicFX/refs/heads/main/images/background-removal.png" width="300" alt="Slic Frosted Glass">
+<img src="https://raw.githubusercontent.com/RyeMoes/SlicFX/refs/heads/main/images/background-removal.png" width="300">
 </td>
 <td>
 <h4>Filter</h4>
@@ -136,7 +136,7 @@ While NVIDIA Broadcast is still king, this filter can cleanly cut out your webca
 <h3>Slic Blur</h3>
 </td>
 <td>
-<img src="https://raw.githubusercontent.com/RyeMoes/SlicFX/refs/heads/main/images/blur.png" width="300" alt="Slic Frosted Glass">
+<img src="https://raw.githubusercontent.com/RyeMoes/SlicFX/refs/heads/main/images/blur.png" width="300">
 </td>
 <td>
 <h4>Filter</h4>
@@ -152,7 +152,7 @@ A dedicated simple blur filter. (Note: Slic Blur uses a Dual-Filtering / Kawase 
 <h3>Slic Mask</h3>
 </td>
 <td width="300">
-<img src="https://raw.githubusercontent.com/RyeMoes/SlicFX/refs/heads/main/images/mask.png" width="400" alt="Slic Frosted Glass">
+<img src="https://raw.githubusercontent.com/RyeMoes/SlicFX/refs/heads/main/images/mask.png" width="400">
 </td>
 <td>
 <h4>Filter</h4>
@@ -168,7 +168,7 @@ This filter procedurally clips the alpha channel of your sources into perfect ci
 <h3>Slic Outline</h3>
 </td>
 <td>
-<img src="https://raw.githubusercontent.com/RyeMoes/SlicFX/refs/heads/main/images/outline.png" width="300" alt="Slic Frosted Glass">
+<img src="https://raw.githubusercontent.com/RyeMoes/SlicFX/refs/heads/main/images/outline.png" width="300">
 </td>
 <td>
 <h4>Filter</h4>
@@ -185,7 +185,7 @@ Automatically draws a drop shadow, solid line, or glowing edge directly around t
 <h3>Slic Rounded Corners</h3>
 </td>
 <td>
-<img src="https://raw.githubusercontent.com/RyeMoes/SlicFX/refs/heads/main/images/rounded-corners.png" width="300" alt="Slic Frosted Glass">
+<img src="https://raw.githubusercontent.com/RyeMoes/SlicFX/refs/heads/main/images/rounded-corners.png" width="300">
 </td>
 <td>
 <h4>Filter</h4>
