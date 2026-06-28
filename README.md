@@ -220,7 +220,7 @@ The absolute easiest way to get rounded coners on your webcam (or any other sour
 
 ---
 
-## The Roadmap & SlicBot
+## The Roadmap
 
 SlicFX Beta 1 is just the foundation. I am actively developing more premium visual tools, including:
 ### On the Table for Future Versions of SlicFX
