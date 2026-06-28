@@ -45,7 +45,7 @@ SlicFX has all the effects you need bundled in one plugin. Drop a source or filt
 <td>
 <h4>Source & Filter</h4>
 <br>
-The easiest way to get that blurred frosted glass background in OBS. It automatically applies a blur and texture to whatever is physically behind it. No more nested scene nightmares required. (Note: Slic Frosted Glass uses a Dual-Filtering / Kawase Blur method and can be reverse engineered. Not recommended for hiding sensitive data)
+The easiest way to get that blurred frosted glass background in OBS. It automatically applies a blur and texture to whatever is physically behind it. No more nested scene nightmares required. Use it as a free-standing source for glass panels or as a filter when the glass should follow an existing source. (Note: Slic Frosted Glass uses a Dual-Filtering / Kawase Blur method and can be reverse engineered. Not recommended for hiding sensitive data)
 </td>
 </tr>
 
@@ -93,7 +93,7 @@ A lightweight duplicate of any source. You can crop, filter, and transform this 
 <td>
 <h4>Filter</h4>
 <br>
-Push your flat 2D sources into 3D space. Easily adjust the pitch, yaw, and roll sliders to tilt your gameplay captures or webcams at cinematic, angled perspectives.
+Turn your flat 2D sources into 3D space. Easily adjust the pitch, yaw, and roll sliders to tilt your gameplay captures, webcams, or any other source at cinematic angled perspectives while automatic bounds compensation helps keep transformed edges from being clipped.
 </td>
 </tr>
 
@@ -125,7 +125,7 @@ Applied directly to the source you want to animate/move (not the scene the sourc
 <td>
 <h4>Filter</h4>
 <br>
-While NVIDIA Broadcast is still king, this filter can cleanly cut out your webcam without a green screen. It uses a highly optimized AI engine (Robust Video Matting) that is entirely hardware-agnostic, meaning you don't need an RTX card to get a flawless, real-time transparent cutout. (Stick with Broadcast if you have NVIDIA, haha)
+For those without RTX cards, this filter can cleanly cut out your webcam without a green screen. It uses a highly optimized AI engine called Robust Video Matting. While NVIDIA Broadcast is still recommended if you can use it, this filter is perfect for those who cannot.
 </td>
 </tr>
 
@@ -149,6 +149,22 @@ A dedicated simple blur filter. (Note: Slic Blur uses a Dual-Filtering / Kawase 
 
 <tr>
 <td width="300" valign="middle">
+<h3>Slic Crop/Pad</h3>
+</td>
+<td width="300">
+<img src="https://raw.githubusercontent.com/RyeMoes/SlicFX/refs/heads/main/images/crop-pad.png" width="400">
+</td>
+<td>
+<h4>Filter</h4>
+<br>
+Use this filter to crop or pad the bounds of a sourceusing visual sliders while the source stays locked in place on your canvas. Tradtional Crop/Pad available as well.
+</td>
+</tr>
+
+
+
+<tr>
+<td width="300" valign="middle">
 <h3>Slic Mask</h3>
 </td>
 <td width="300">
@@ -157,7 +173,7 @@ A dedicated simple blur filter. (Note: Slic Blur uses a Dual-Filtering / Kawase 
 <td>
 <h4>Filter</h4>
 <br>
-This filter procedurally clips the alpha channel of your sources into perfect circles, diamonds, stars, etc using math instead of static image files.  However, if you like the tedius task of making your own mask files in photoshop, this can use those too!
+This Mask goes far beyond circles and rectangles. Build stars, gears, speech bubbles, hearts, animals, and other shapes. You can also use another source as the mask or load a static image. Rotation, scale, position,skew, mirroring, and corner controls finish the job.
 </td>
 </tr>
 
@@ -173,7 +189,7 @@ This filter procedurally clips the alpha channel of your sources into perfect ci
 <td>
 <h4>Filter</h4>
 <br>
-Automatically draws a drop shadow, solid line, or glowing edge directly around the edges of any source. If you pair this with a mask or background removal, the border will dynamically hug your body as you move around.
+Outline can hug a webcam cutout, mask, graphic, or any edged source. Shape the thickness and placement, then choose solid, shadow, glow, bevel. After that, turn on an animation mode and the colors on the border will animate around the source.
 </td>
 </tr>
 
