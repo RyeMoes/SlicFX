@@ -276,5 +276,6 @@ SlicFX makes use of the following third-party components:
 * **MediaPipe Selfie Segmentation**: Person segmentation safety net model. Developed by Google and converted to ONNX by the [onnx-community](https://huggingface.co/onnx-community/mediapipe_selfie_segmentation) (Licensed under Apache-2.0).
 * **ONNX Runtime (1.18.0)**: Machine learning inference engine. Developed by Microsoft (Licensed under MIT).
 * **DirectML**: GPU acceleration backend for DirectX 12 hardware. Developed by Microsoft (Licensed under MIT).
+* **[Aitum Vertical Canvas](https://github.com/Aitum/obs-vertical-canvas):** In the Slic Animation editor, selecting a scene that lives on a vertical (secondary) canvas asks the vertical-canvas plugin to switch its dock to that scene — via its published `aitum_vertical_switch_scene` command. This is purely a convenience and the *only* place SlicFX calls another plugin. If the vertical-canvas plugin isn't installed, it simply skips the call.
 
 For full license agreements and third-party notices, please see the `licenses/` directory included with the plugin installation.
