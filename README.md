@@ -129,16 +129,15 @@ SlicFX has all the effects you need bundled in one plugin. Drop a source or filt
 <table>
 
 <tr bgcolor="#161b22">
-  <td width="40%" valign="middle"align="center">
+  <td colspan="2"valign="middle" align="center">
+    <dl>
+    <dd>
     <h3>Slic Background Removal</h3>
-    <h4>Filter</h4>
-  </td>
-  <td width="60%" align="center">
+    <strong>Filter</strong>
+    </dd>
+    </dl>
     <img src="https://raw.githubusercontent.com/RyeMoes/SlicFX/refs/heads/main/images/background-removal.png" width="300">
   </td>
-</tr>
-<tr>
-  <td colspan="2" height="1" bgcolor="#30363d"></td>
 </tr>
 <tr bgcolor="#161b22">
   <td colspan="2">
@@ -151,7 +150,7 @@ SlicFX has all the effects you need bundled in one plugin. Drop a source or filt
 <table>
   
 <tr bgcolor="#0d1117">
-  <td width="40%" valign="middle" align="center">
+  <td width="40%" valign="top" align="center">
     <dl>
       <dd>
         <h3>Slic Blur</h3>
