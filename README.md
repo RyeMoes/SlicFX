@@ -63,7 +63,8 @@ SlicFX has all the effects you need bundled in one plugin. Drop a source or filt
     Drop this invisible, pass-through layer above your other sources, right-click it, and add any filter to it. This will apply the filter to anything that is behind this adjustment layer in real time, like in modern video editing software.
   </td>
 </tr>
-
+  </table>
+<table>
 <tr bgcolor="#0d1117">
   <td width="40%" valign="middle">
     <h3>Slic Source Copy</h3>
@@ -81,7 +82,10 @@ SlicFX has all the effects you need bundled in one plugin. Drop a source or filt
     A lightweight duplicate of any source. You can crop, filter, and transform this new instance independently without changing your original source, all while passing data directly through the GPU cache with virtually zero overhead.
   </td>
 </tr>
-
+  
+</table>
+<table>
+  
 <tr bgcolor="#161b22">
   <td width="40%" valign="middle">
     <h3>Slic 3D Warp</h3>
@@ -99,6 +103,9 @@ SlicFX has all the effects you need bundled in one plugin. Drop a source or filt
     Turn your flat 2D sources into 3D space. Easily adjust the pitch, yaw, and roll sliders to tilt your gameplay captures, webcams, or any other source at cinematic angled perspectives while automatic bounds compensation helps keep transformed edges from being clipped.
   </td>
 </tr>
+
+</table>
+<table>
 
 <tr bgcolor="#0d1117">
   <td width="40%" valign="middle">
@@ -118,8 +125,11 @@ SlicFX has all the effects you need bundled in one plugin. Drop a source or filt
   </td>
 </tr>
 
+</table>
+<table>
+
 <tr bgcolor="#161b22">
-  <td width="40%" valign="middle">
+  <td width="40%" valign="middle"align="center">
     <h3>Slic Background Removal</h3>
     <h4>Filter</h4>
   </td>
@@ -136,8 +146,12 @@ SlicFX has all the effects you need bundled in one plugin. Drop a source or filt
   </td>
 </tr>
 
+</table>
+<table>
+<br>
+  
 <tr bgcolor="#0d1117">
-  <td width="40%" valign="middle">
+  <td width="40%" valign="middle" align="center">
     <h3>Slic Blur</h3>
     <h4>Filter</h4>
   </td>
@@ -145,15 +159,16 @@ SlicFX has all the effects you need bundled in one plugin. Drop a source or filt
     <img src="https://raw.githubusercontent.com/RyeMoes/SlicFX/refs/heads/main/images/blur.png" width="300">
   </td>
 </tr>
-<tr>
-  <td colspan="2" height="1" bgcolor="#30363d"></td>
-</tr>
 <tr bgcolor="#0d1117">
   <td colspan="2">
     A dedicated simple blur filter. (Note: Slic Blur uses a Dual-Filtering / Kawase Blur method and can be reverse engineered. Not recommended for hiding sensitive data)
   </td>
 </tr>
 
+</table>
+<table>
+<br>
+  
 <tr bgcolor="#161b22">
   <td width="40%" valign="middle">
     <h3>Slic Crop/Pad</h3>
