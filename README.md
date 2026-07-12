@@ -34,20 +34,26 @@ SlicFX has all the effects you need bundled in one plugin. Drop a source or filt
 # SlicFX Sources & Filters
 
 <table>
-
-<tr bgcolor="#0d1117">
-  <td>
-    <h3>Slic Frosted Glass</h3>
-    <h4>Source &amp; Filter</h4>
-    The easiest way to get that blurred frosted glass background in OBS. It automatically applies a blur and texture to whatever is physically behind it. No more nested scene nightmares required. Use it as a free-standing source for glass panels or as a filter when the glass should follow an existing source. (Note: Slic Frosted Glass uses a Dual-Filtering / Kawase Blur method and can be reverse engineered. Not recommended for hiding sensitive data)
-    <br>
- <center></center><img src="https://raw.githubusercontent.com/RyeMoes/SlicFX/refs/heads/main/images/frosted-glass.png" width="300">
-  </td>
-</tr>
+  <tr bgcolor="#0d1117">
+    <td valign="middle" align="center">
+      <dl>
+        <dd>
+          <h3>Slic Frosted Glass</h3>
+          <strong>Source &amp; Filter</strong>
+        </dd>
+      </dl>
+      <img src="https://raw.githubusercontent.com/RyeMoes/SlicFX/refs/heads/main/images/frosted-glass.png" width="300">
+      <p align="left">
+        The easiest way to get that blurred frosted glass background in OBS. It automatically applies a blur and texture to whatever is physically behind it. No more nested scene nightmares required. Use it as a free-standing source for glass panels or as a filter when the glass should follow an existing source. (Note: Slic Frosted Glass uses a Dual-Filtering / Kawase Blur method and can be reverse engineered. Not recommended for hiding sensitive data)
+      </p>
+    </td>
+  </tr>
 </table>
+
+
 <table>
 <tr bgcolor="#161b22">
-  <td width="40%" valign="middle">
+  <td colspan="2" valign="middle" align="center">
     <h3>Slic Adjustment Layer</h3>
     <h4>Source</h4>
   </td>
@@ -129,7 +135,7 @@ SlicFX has all the effects you need bundled in one plugin. Drop a source or filt
 <table>
 
 <tr bgcolor="#161b22">
-  <td colspan="2"valign="middle" align="center">
+  <td colspan="2" valign="middle" align="center">
     <dl>
     <dd>
     <h3>Slic Background Removal</h3>
