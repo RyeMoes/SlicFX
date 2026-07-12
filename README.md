@@ -147,18 +147,23 @@ SlicFX has all the effects you need bundled in one plugin. Drop a source or filt
 </tr>
 
 </table>
-<table>
 <br>
+<table>
   
 <tr bgcolor="#0d1117">
   <td width="40%" valign="middle" align="center">
-    <h3>Slic Blur</h3>
-    <h4>Filter</h4>
+    <dl>
+      <dd>
+        <h3>Slic Blur</h3>
+        <strong>Filter</strong>
+      </dd>
+    </dl>
   </td>
   <td width="60%" align="center">
     <img src="https://raw.githubusercontent.com/RyeMoes/SlicFX/refs/heads/main/images/blur.png" width="300">
   </td>
 </tr>
+
 <tr bgcolor="#0d1117">
   <td colspan="2">
     A dedicated simple blur filter. (Note: Slic Blur uses a Dual-Filtering / Kawase Blur method and can be reverse engineered. Not recommended for hiding sensitive data)
@@ -166,8 +171,8 @@ SlicFX has all the effects you need bundled in one plugin. Drop a source or filt
 </tr>
 
 </table>
-<table>
 <br>
+<table>
   
 <tr bgcolor="#161b22">
   <td width="40%" valign="middle">
